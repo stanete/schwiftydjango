@@ -8,9 +8,13 @@ Data is stored in a PostgreSQL database using the [Heroku Postres Addon](https:/
 
 Images are stored in an **Amazon S3 bucket** with the help of [boto3](https://github.com/boto/boto3) and [django-storages](https://github.com/jschneier/django-storages).
 
+![Time to get Schwifty](/art/logo.png)
+
 ## Running locally
 
 You will need your own **[Amazon S3 Bucket](https://aws.amazon.com/s3)**. It's very simple to have one up and running in no time.
+
+Thanks to [django-environ](https://github.com/joke2k/django-environ) you only have to create a `.env`file inside the app folder and set these environment variables:
 
 ```
 DEBUG=on
@@ -54,7 +58,7 @@ The base url is: [schwiftydjango.herokuapp.com](schwiftydjango.herokuapp.com)
 
 ### Origins 🌍
 
-Sample **GET** request for listing Origins to `/origins`
+Sample **GET** request for listing Origins to `/origins`:
 
 ```js
 {
@@ -74,7 +78,7 @@ Sample **GET** request for listing Origins to `/origins`
 }
 ```
 
-Sample **GET** request for listing one Origin to `/origins/{id}`
+Sample **GET** request for listing one Origin to `/origins/{id}`:
 
 ```js
 {
@@ -83,7 +87,7 @@ Sample **GET** request for listing one Origin to `/origins/{id}`
 }
 ```
 
-Sample **POST** request for creating Origins to `/origins`
+Sample **POST** request for creating Origins to `/origins`:
 
 ```js
 {
@@ -93,7 +97,7 @@ Sample **POST** request for creating Origins to `/origins`
 
 ### Characters 👽
 
-Sample **GET** request for listing Characters to `/characters`
+Sample **GET** request for listing Characters to `/characters`:
 
 ```js
 {
@@ -116,7 +120,7 @@ Sample **GET** request for listing Characters to `/characters`
 }
 ```
 
-Sample **GET** request for listing one Character to `/characters/{id}`
+Sample **GET** request for listing one Character to `/characters/{id}`:
 
 ```js
 {
