@@ -1,0 +1,7 @@
+django
+djangorestframework
+django-storages
+django-environ
+boto3
+pillow
+psycopg2
