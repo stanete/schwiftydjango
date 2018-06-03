@@ -50,6 +50,14 @@ And you can even access the app running container:
 docker exec -ti 1ece04b3958d bash
 ```
 
+## Testing
+
+After running the app locally you can run the tests with:
+
+```
+docker-compose run web python manage.py test
+```
+
 ## Documentation 📃
 
 The base url is: [schwiftydjango.herokuapp.com](schwiftydjango.herokuapp.com)
