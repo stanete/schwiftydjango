@@ -4,13 +4,13 @@ A REST api that serves **Rick & Morty** characters. It is written in python usin
 
 It is deployed at [schwiftydjango.herokuapp.com](https://schwiftydjango.herokuapp.com) using **[Heroku Container Registry](https://devcenter.heroku.com/articles/container-registry-and-runtime)** which allows you to deploy your **Docker** based app to Heroku.
 
-Data is stored in a PostgreSQL database using the [Heroku Postres Addon](https://www.heroku.com/postgres).
+Data is stored in a PostgreSQL database using the [Heroku Postgres Addon](https://www.heroku.com/postgres).
 
 Images are stored in an **Amazon S3 bucket** with the help of [boto3](https://github.com/boto/boto3) and [django-storages](https://github.com/jschneier/django-storages).
 
 ![Time to get Schwifty](/art/logo.png)
 
-## Running locally
+## Running locally 👨‍💻
 
 You will need your own **[Amazon S3 Bucket](https://aws.amazon.com/s3)**. It's very simple to have one up and running in no time.
 
@@ -52,7 +52,7 @@ And you can even access the app running container:
 docker exec -ti 1ece04b3958d bash
 ```
 
-## Documentation
+## Documentation 📃
 
 The base url is: [schwiftydjango.herokuapp.com](schwiftydjango.herokuapp.com)
 
@@ -136,6 +136,6 @@ Sample **GET** request for listing one Character to `/characters/{id}`:
 }
 ```
 
-### Pagination
+### Pagination 📄
 
 You can access different pages with the `page` parameter. If you don't specify any page, the first page will be shown. The default size is 5.
