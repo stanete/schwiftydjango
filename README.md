@@ -4,7 +4,7 @@ A REST api that serves **Rick & Morty** characters. It is written in python usin
 
 It is deployed at [schwiftydjango.herokuapp.com](https://schwiftydjango.herokuapp.com) using **[Heroku Container Registry](https://devcenter.heroku.com/articles/container-registry-and-runtime)** which allows you to deploy your **Docker** based app to Heroku.
 
-Data is stored in a PostgreSQL database using the [Heroku Postgres Addon](https://www.heroku.com/postgres).
+In production it uses PostgreSQL as a database using the [Heroku Postgres Addon](https://www.heroku.com/postgres).
 
 Images are stored in an **Amazon S3 bucket** with the help of [boto3](https://github.com/boto/boto3) and [django-storages](https://github.com/jschneier/django-storages).
 
