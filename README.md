@@ -62,7 +62,7 @@ docker-compose run web python manage.py test
 
 ## Documentation 📃
 
-The base url is: [schwiftydjango.herokuapp.com](schwiftydjango.herokuapp.com)
+The base url is: [schwiftydjango.herokuapp.com](https://schwiftydjango.herokuapp.com)
 
 ### Origins 🌍
 
