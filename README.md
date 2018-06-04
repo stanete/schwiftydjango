@@ -8,6 +8,8 @@ In production it uses PostgreSQL as a database using the [Heroku Postgres Addon]
 
 Images are stored in an **Amazon S3 bucket** with the help of [boto3](https://github.com/boto/boto3) and [django-storages](https://github.com/jschneier/django-storages).
 
+![Logo](/art/logo.png)
+
 ## Running locally 👨‍💻
 
 You will need your own **[Amazon S3 Bucket](https://aws.amazon.com/s3)**. It's very simple to have one up and running in no time.
