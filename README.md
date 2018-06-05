@@ -8,6 +8,8 @@ In production it uses PostgreSQL as a database using the [Heroku Postgres Addon]
 
 Images are stored in an **Amazon S3 bucket** with the help of [boto3](https://github.com/boto/boto3) and [django-storages](https://github.com/jschneier/django-storages).
 
+I'll keep adding features as I keep exploring the tools this REST api is build with. Be patient.
+
 ![Logo](/art/logo.png)
 
 ## Running locally 👨‍💻
